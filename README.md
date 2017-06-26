@@ -6,13 +6,16 @@ where "M.m.P-I" is Major.minor.Patch-Iteration.
 
 ## Usage
 
+NOTE: Work in progress
+
 A simple "hello world" style program.
 The purpose of the repository it to show how to:
 
-1. Build go executable locally
-1. Build go executable via Docker
-1. Build RPM / DEB installation via Docker.
-1. Show how to use HashiCorp's go-plugin
+1. Use a `go-hello-plugins-plus.conf` JSON file that describes plugins
+   1. Command line option
+   1. `./go-hello-plugins-plus.conf' (i.e. local directory)
+   1. `/etc/go-hello-plugins-plus.conf'
+1. Each plugin has its own "docopt" 
 
 ### Invocation
 
